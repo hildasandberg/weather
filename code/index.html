@@ -3,8 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="" href="/css/master.css">
   </head>
   <body>
     <!-- Add your code here! -->
+
+    <form id="frm1" action="/action_page.php">
+      <select name="Cities" id="cities" class="inputBox">
+        <option id="Stockholm">Stockholm</option>
+        <option id="SanSebastian">San Sebastian</option>
+        <option id="LasVegas">Las Vegas</option>
+      </select>
+      <input type="button" onclick="getCity()" value="Submit" class="knapp" id="knapp1">
+    </form>
+
+    <h1 id="place"></p>
+    <h2 id="temperature"></p>
+    <h2 id="weather"></p>
+
+    <h3 id="sunrise"></p>
+    <h3 id="sunset"></p>
+
+          <script src="./script.js" charset="utf-8"></script>
   </body>
 </html>
