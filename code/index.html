@@ -3,27 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="" href="/css/master.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   </head>
-  <body>
+  <body id="container">
     <!-- Add your code here! -->
+    <div id="container2">
 
-    <form id="frm1" action="/action_page.php">
-      <select name="Cities" id="cities" class="inputBox">
-        <option id="Stockholm">Stockholm</option>
-        <option id="SanSebastian">San Sebastian</option>
-        <option id="LasVegas">Las Vegas</option>
-      </select>
-      <input type="button" onclick="getCity()" value="Submit" class="knapp" id="knapp1">
-    </form>
+      <form id="frm1" action="/action_page.php">
+        <select name="Cities" id="cities" class="inputBox">
+          <option id="Stockholm">Stockholm</option>
+          <option id="SanSebastian">San Sebastian</option>
+          <option id="Phuket">Phuket</option>
+        </select>
+      </br>
+        <input type="button" onclick="getCity()" value="Show me the weather" class="knapp" id="knapp1">
+      </form>
 
-    <h1 id="place"></p>
-    <h2 id="temperature"></p>
-    <h2 id="weather"></p>
+      <h1 id="place"></p>
+      <br>
+      <h2 id="temperature"></p>
+      <br>
+      <h2 id="weather"></p>
+      <br>
+      <h3 id="sunrise"></p>
+      <br>
+      <h3 id="sunset"></p>
 
-    <h3 id="sunrise"></p>
-    <h3 id="sunset"></p>
-
-          <script src="./script.js" charset="utf-8"></script>
+    </div>
+    <script src="./moment.js" charset="utf-8"></script>
+    <script src="./script.js" charset="utf-8"></script>
   </body>
 </html>

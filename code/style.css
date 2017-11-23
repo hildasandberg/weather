@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+#frm1 {
+  margin: 100px;
+}
+
+#container {
+  background-size: cover;
+}
+
+.supercold {
+  background-image: url(https://cdn-images-1.medium.com/max/2000/1*DPmSgZTJSJRjLgkb0Xs1GA.jpeg);
+}
+
+.cold {
+  background-image: url(https://c.pxhere.com/photos/28/bd/photo-25964.jpg!d);
+}
+
+.warm {
+  background-image: url(http://www.swedishhitradio.com/attachments/Image/mark_harris-red_cottage-669.jpg?template=generic);
+}
+
+.hot {
+  background-image: url(https://www.healthline.com/hlcmsresource/images/News/070816_hotweather_THUMB_LARGE.jpg);
+}
+
+
+.inputBox{
+  font-family: 'Muli', sans-serif;;
+  height: 29px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  overflow: hidden;
+  width: 240px;
+}
